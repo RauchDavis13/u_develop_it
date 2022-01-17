@@ -29,6 +29,10 @@ const db = mysql.createConnection(
 //   });
 // });
 
+db.query(`SELECT * FROM candidates`, (err, rows) => {
+  console.log(rows);
+});
+
 // default repsonse for any oher request (Not Found)
 app.use((req, res) => {
   res.status(404).end();
