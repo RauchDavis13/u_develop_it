@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "node": "^17.3.1"
+  },
+  "name": "u_develop_it",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RauchDavis13/u_develop_it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RauchDavis13/u_develop_it/issues"
+  },
+  "homepage": "https://github.com/RauchDavis13/u_develop_it#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
