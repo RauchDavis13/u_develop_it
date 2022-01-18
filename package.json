@@ -1,28 +1,20 @@
 {
-  "dependencies": {
-    "express": "^4.17.2",
-    "mysql2": "^2.3.3",
-    "node": "^17.3.1"
-  },
-  "name": "u_develop_it",
-  "description": "",
+  "name": "vote-api",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "description": "Back-end APIs for a voting app.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RauchDavis13/u_develop_it.git"
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RauchDavis13/u_develop_it/issues"
-  },
-  "homepage": "https://github.com/RauchDavis13/u_develop_it#readme",
   "devDependencies": {
-    "jest": "^27.4.7"
+    "jest": "^26.6.3"
   }
 }
